@@ -1,0 +1,49 @@
+{
+	"rules": {
+		"no-mixed-operators": "off",
+		"ava/no-skip-test": "warn",
+		"unicorn/custom-error-definition": "error",
+		"curly": "off",
+		"padding-line-between-statements": "off",
+		"no-lonely-if": "off",
+		"no-await-in-loop": "off",
+		"unicorn/prevent-abbreviations": "off",
+		"unicorn/no-for-loop": "off",
+		"unicorn/import-style": "off",
+		"unicorn/prefer-ternary": "off",
+		"max-params": "off",
+		"max-depth": "off",
+		"quote-props": "off",
+		"linebreak-style": [
+			"error",
+			"unix"
+		],
+		"object-curly-spacing": [
+			"error",
+			"always"
+		],
+		"comma-dangle": [
+			"error",
+			"always-multiline"
+		]
+	},
+	"overrides": [
+		{
+			"files": "**/*.ts",
+			"rules": {
+				"@typescript-eslint/consistent-indexed-object-style": "off",
+				"@typescript-eslint/prefer-readonly-parameter-types": "off",
+				"@typescript-eslint/class-literal-property-style": "off",
+				"@typescript-eslint/unified-signatures": "off",
+				"comma-dangle": "off",
+				"@typescript-eslint/comma-dangle": [
+					"error",
+					"always-multiline"
+				]
+			},
+			"//notes": {
+				"@typescript-eslint/consistent-indexed-object-style": "waiting for #2687 and #2797"
+			}
+		}
+	]
+}
