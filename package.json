@@ -1,6 +1,6 @@
 {
 	"name": "encrypt-string",
-	"version": "0.0.0",
+	"version": "1.0.0",
 	"description": "Encrypt and decrypt a string using another string (or an `Uint8Array`) as password",
 	"license": "MIT",
 	"repository": "papb/encrypt-string",
