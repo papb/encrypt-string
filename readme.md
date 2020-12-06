@@ -6,7 +6,7 @@
 ## Highlights
 
 * Simple to use, hard to misuse
-* Does not reinvent the wheel (based on [encrypt-uint8array](https://github.com/papb/encrypt-unit8array) which in turn is based on [Themis](https://docs.cossacklabs.com/themis/))
+* Does not reinvent the wheel (based on [encrypt-uint8array](https://github.com/papb/encrypt-uint8array) which in turn is based on [Themis](https://docs.cossacklabs.com/themis/))
 * Written in TypeScript (you get autocomplete suggestions in your IDE!)
 * The obtained encrypted string is always printable (uses only printable ASCII characters)
 * For large strings, the encrypted string length is only about 25% larger than the original string
